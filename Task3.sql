@@ -30,3 +30,5 @@ select m_name,budget from movies where  release_year like '20%';
 select * from movies where budget between 100 and 500;
 
 Select * from movies order by  release_year asc;
+
+select * from students limit 2;
