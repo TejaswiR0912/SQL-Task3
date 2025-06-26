@@ -71,8 +71,13 @@ Used to sort the result set in ascending (ASC) or descending (DESC) order.
 SELECT * FROM table_name
 ORDER BY column_name [ASC|DESC];
 ```
-
-
+**🔹LIMIT:**
+It is  used to restrict the number of rows returned by a query.
++ **Syntax**
+```SQL
+SELECT * FROM table_name
+LIMIT row_count;
+```
 
 
 
