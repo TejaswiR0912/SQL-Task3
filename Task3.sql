@@ -1,5 +1,4 @@
 create database task3;
-use task3;
 create table movies(
 M_Id int ,
 M_Name varchar(100) not null,
@@ -23,7 +22,7 @@ select * from movies where language='telugu';
 
 select m_name,release_year  from movies where director='SSR' and Language='telugu';
 
-select m_id,director from movies where budget=100 or release_year=2025;
+select m_id,director from movies where budget<125 or release_year=2025;
 
 select m_name,budget from movies where  release_year like '20%';
 
