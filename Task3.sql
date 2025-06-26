@@ -19,7 +19,7 @@ select * from movies;
 
 select m_name,language from movies;
 
-select m_name,budget from movies where language='telugu';
+select * from movies where language='telugu';
 
 select m_name,release_year  from movies where director='SSR' and Language='telugu';
 
