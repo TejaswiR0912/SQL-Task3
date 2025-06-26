@@ -1,4 +1,5 @@
 create database task3;
+use task3;
 create table movies(
 M_Id int ,
 M_Name varchar(100) not null,
