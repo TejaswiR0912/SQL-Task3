@@ -26,6 +26,6 @@ select m_id,director from movies where budget<125 or release_year=2025;
 
 select m_name,budget from movies where  release_year like '20%';
 
-select m_name,language from movies where budget between 100 and 500;
+select * from movies where budget between 100 and 500;
 
 Select * from movies order by  release_year asc;
