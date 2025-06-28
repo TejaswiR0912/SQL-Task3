@@ -1,4 +1,4 @@
-# 🗂️Task 3
+# 🗂️SELECT, WHERE, AND, OR, LIKE, BETWEEN, ORDER BY, LIMIT
 This repository contains SQL queries developed as part of the Elevate Labs SQL Developer Internship. The task emphasizes mastering fundamental data retrieval techniques—extracting data from one or more tables using SELECT statements combined with key filtering and sorting clauses.
 # 🎯Objective
 **🔹Select All Columns:**
